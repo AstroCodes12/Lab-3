@@ -1,9 +1,11 @@
 import XCTest
-@testable import Lab-3
+
+@testable import Lab_3
+
 final class CounterTests: XCTestCase {
 func testIncrement() {
-var counter = Counter()
-counter.increment()
+let counter = Counter()
+counter.Increment()
 print("Counter value after increment: \(counter.value)") // Print the counter value
 XCTAssertEqual(counter.value, 1, "Counter increment failed")
 }
