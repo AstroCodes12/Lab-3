@@ -4,16 +4,17 @@
 class Counter {
 var value = 0
 
-func Increment {
+func Increment() {
 value += 1
 } 
 
-func Decrement {
+func Decrement() {
 value -= 1 
+}
 }
 
 var counter = Counter()
 
-counter.increment()
+counter.Increment()
 
 print("Counter Value after Increment \(counter.value)")
