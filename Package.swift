@@ -16,5 +16,4 @@ name: "Lab-3Tests", dependencies:["Lab-3"]
 
 
  ]
-    ]
 )
