@@ -8,6 +8,8 @@ let counter = Counter()
 counter.Increment()
 print("Counter value after increment: \(counter.value)") // Print the counter value
 XCTAssertEqual(counter.value, 1, "Counter increment failed")
+	}
+}
 
 final class CounterTests: XCTestCase {
 func testDecrement() {
