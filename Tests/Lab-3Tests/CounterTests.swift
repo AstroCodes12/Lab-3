@@ -3,7 +3,7 @@ import XCTest
 @testable import Lab_3
 
 func testIncrement() {
-var counter = Counter()
+let counter = Counter()
 counter.increment()
 print("Counter value after increment: \(counter.value)") // Print the counter value
 XCTAssertEqual(counter.value, 1, "Counter increment failed")
